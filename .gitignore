@@ -1,4 +1,5 @@
 template/target/
+template/Cargo.lock
 
 # Logs
 logs
