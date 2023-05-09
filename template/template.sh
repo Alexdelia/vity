@@ -12,6 +12,15 @@ function some_function() {
 	array[0]=1
 
 	echo "$var" "${array[@]}"
+
+	for i in "${array[@]}"; do
+		echo "$i"
+	done
+
+	while [[ "$var" -lt 10 ]]; do
+		echo "$var"
+		var=$((var + 1))
+	done
 }
 
 another_function() {
@@ -20,7 +29,14 @@ another_function() {
 	local z
 
 	z=$((x + y))
-	echo "$z"
+
+	if [[ "$z" -eq 3 ]]; then
+		echo "yes"
+	elif [[ "$z" -le 2 ]]; then
+		echo "no"
+	else
+		echo "indeed"
+	fi
 }
 
 function some_other_function {

@@ -757,7 +757,6 @@
 			}
 		},
 		{
-			"name": "number",
 			"scope": [
 				"constant.numeric",
 				"variable.other.enummember",
@@ -1277,9 +1276,17 @@
 			}
 		},
 		{
+			"name": "number",
 			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#78F6FF"
+			}
+		},
+		{
+			"name": "bool",
+			"scope": "constant.language.bool",
+			"settings": {
+				"foreground": "#708dff"
 			}
 		},
 		{
@@ -1475,15 +1482,15 @@
 			}
 		},
 		{
-			"scope": [
-				"variable"
-			],
+			"name": "variable",
+			"scope": "variable",
 			"settings": {
 				"foreground": "#EBFCFC",
 				"fontStyle": "italic"
 			}
 		},
 		{
+			"name": "this",
 			"scope": "variable.language.this",
 			"settings": {
 				"foreground": "#624E208A",
@@ -1491,6 +1498,7 @@
 			}
 		},
 		{
+			"name": "self",
 			"scope": [
 				"variable.parameter.function.language.special.self",
 				"variable.language.self"
@@ -1508,6 +1516,7 @@
 			}
 		},
 		{
+			"name": "type class",
 			"scope": "entity.name.type",
 			"settings": {
 				"foreground": "#4BE37E",
@@ -1515,9 +1524,18 @@
 			}
 		},
 		{
+			"name": "type number",
 			"scope": "entity.name.type.numeric",
 			"settings": {
-				"foreground": "#23daa9",
+				"foreground": "#39f19b",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "type primitive",
+			"scope": "entity.name.type.primitive",
+			"settings": {
+				"foreground": "#28e188",
 				"fontStyle": ""
 			}
 		},
@@ -1575,14 +1593,16 @@
 			}
 		},
 		{
-			"scope": "entity.name.function.macro.rules.rust",
+			"name": "macro rules",
+			"scope": "entity.name.function.macro.rules",
 			"settings": {
 				"foreground": "#5D85F6",
 				"fontStyle": ""
 			}
 		},
 		{
-			"scope": "entity.name.function.macro.rust",
+			"name": "macro call",
+			"scope": "entity.name.function.macro",
 			"settings": {
 				"foreground": "#E34AA8",
 				"fontStyle": "bold"

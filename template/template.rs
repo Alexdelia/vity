@@ -63,9 +63,47 @@ fn foo(s: impl Into<String>, b: &[u8]) -> Result<Bar, ()> {
 
 	v[0] = 42;
 	v.len();
+	v[0..1];
 
 	let raw_ptr = &x as *const u32;
 	let addr = raw_ptr as usize;
+
+	x = if x == y {
+		1
+	} else if x != y {
+		2
+	} else {
+		3
+	};
+
+	x = match x {
+		1 => 1,
+		2 => 2,
+		_ => 3,
+	};
+
+	if let Some(x) = x {
+		println!("{x}");
+	} else {
+		println!("no x");
+	};
+
+	while x < 10 {
+		x += 1;
+	}
+
+	for x in 0..10 {
+		let d = Some(x);
+		println!("{d:?}");
+	}
+
+	loop {
+		println!("loop");
+		break;
+	}
+
+	let b: bool = true;
+	let b = false;
 
 	if ((x == x || x != x) && x == x && sizeof(x))
 	while (((((true)))))
