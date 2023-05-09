@@ -7,7 +7,7 @@
 int	foo(int ac, char **av, const std::string &tmp)
 {
 	static	long			sl;
-	std::string				s = "Hello Wordl!";
+	std::string				s = "Hello Wordl!\n";
 	std::string::iterator	y = s.begin();
 	int						x = 1234567890;
 
@@ -42,4 +42,9 @@ int	foo(int ac, char **av, const std::string &tmp)
 
 	)
 	// comment
+	/*
+	multi line comment
+	*/
 }
+
+#endif

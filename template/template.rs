@@ -11,16 +11,19 @@ struct BarStruct<T> {
     no: T,
 }
 
-impl FromStr for Bar {
-    type Err = ();
+trait BarTrait {
+	fn yes(&self) -> u8;
+	fn no(&self) -> u8;
+}
 
-    fn from_str(s: &str) -> Result<Self, Self::Err> {
-        match s {
-            "yes" => Ok(Template::Yes(0)),
-            "no" => Ok(Template::No),
-            _ => Err(()),
-        }
-    }
+impl BarTrait for BarStruct<u8> {
+	fn yes(&self) -> u8 {
+		self.yes
+	}
+
+	fn no(&self) -> u8 {
+		self.no
+	}
 }
 
 // comment
@@ -39,8 +42,13 @@ multi line comment
 fn foo(s: impl Into<String>, b: &[u8]) -> Result<Bar, ()> {
     let mut s = s.into();
 
+	let v = vec![1, 2, 3];
 	let x = 0u32;
 	let y: u32 = 0;
+	let c = 'c';
+	let s = "string\n";
+	let s = r#"raw string\n"#;
+	let s = format!("fstring {x} {}", y);
 
 	x = x + x;
 	x = x - x;
@@ -50,20 +58,14 @@ fn foo(s: impl Into<String>, b: &[u8]) -> Result<Bar, ()> {
 	x -= x;
 	x *= x;
 	x /= x;
-	x++; ++x;
-	x--; --x;
-	y++; ++y;
-	y--; --y;
+	x += 1;
+	x -= 1;
 
-	av[0] = NULL;
-	av->hey;
-	av.hey;
-	y->begin();
-	y->hey;
-	(*(*y)).begin();
+	v[0] = 42;
+	v.len();
 
-	x = &sl;
-	x = *sl;
+	let raw_ptr = &x as *const u32;
+	let addr = raw_ptr as usize;
 
 	if ((x == x || x != x) && x == x && sizeof(x))
 	while (((((true)))))
