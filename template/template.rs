@@ -57,6 +57,8 @@ fn foo(s: impl Into<String>, b: &[u8]) -> Result<Bar, ()> {
     let b = 0b10;
     let o = 0o10;
     let h = 0x10;
+    let b: bool = true;
+    let b = false;
 
     x = x + x;
     x = x - x;
@@ -111,10 +113,7 @@ fn foo(s: impl Into<String>, b: &[u8]) -> Result<Bar, ()> {
         break;
     }
 
-    let b: bool = true;
-    let b = false;
-
-    foo("str", &[1, 2, 3]);
+    foo("str", &[1, 2, 3]).map_err(|_| ())?;
 
     let bar = BarStruct::<u8> { yes: 1, no: 2 };
 
