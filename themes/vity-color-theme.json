@@ -1632,7 +1632,7 @@
 			"name": "function",
 			"scope": "storage.type.function.shell",
 			"settings": {
-				"foreground": "#E34A877f",
+				"foreground": "#569CD67f",
 			}
 		},
 		{
