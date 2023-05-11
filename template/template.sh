@@ -10,6 +10,7 @@ function some_function() {
 
 	array=(1 2 3 4 5)
 	array[0]=1
+	array+=(6 7 8 9 10)
 
 	echo "$var" "${array[@]}"
 
@@ -21,6 +22,8 @@ function some_function() {
 		echo "$var"
 		var=$((var + 1))
 	done
+
+	var="$(some_function)"
 }
 
 another_function() {
@@ -40,5 +43,5 @@ another_function() {
 }
 
 function some_other_function {
-	cmd arg1 arg2 --flag1 --flag2
+	cmd arg1 'arg2' "arg3" -flag1 --flag2 --flag-3 ./*
 }

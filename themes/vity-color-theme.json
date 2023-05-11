@@ -1303,7 +1303,10 @@
 		},
 		{
 			"name": "keyword comparison",
-			"scope": "keyword.operator.comparison",
+			"scope": [
+				"keyword.operator.comparison",
+				"keyword.operator.logical.shell",
+			],
 			"settings": {
 				"foreground": "#FF9E37",
 				"fontStyle": ""
@@ -1598,6 +1601,147 @@
 			"scope": "keyword.operator.quantifier.regexp",
 			"settings": {
 				"foreground": "#D7BA7D"
+			}
+		},
+		// shell
+		{
+			"name": "alias",
+			"scope": "storage.type.alias",
+			"settings": {
+				"foreground": "#fff45c9e",
+			}
+		},
+		{
+			"name": "string quote",
+			"scope": [
+				"punctuation.definition.string.begin.shell",
+				"punctuation.definition.string.end.shell",
+			],
+			"settings": {
+				"foreground": "#85C05799",
+			}
+		},
+		{
+			"name": "builtin",
+			"scope": "support.function.builtin",
+			"settings": {
+				"foreground": "#e34adbe0",
+			}
+		},
+		{
+			"name": "function",
+			"scope": "storage.type.function.shell",
+			"settings": {
+				"foreground": "#E34A877f",
+			}
+		},
+		{
+			"name": "local",
+			"scope": "storage.modifier.local",
+			"settings": {
+				"foreground": "#569CD67f",
+			}
+		},
+		{
+			"name": "typeset",
+			"scope": "storage.modifier.typeset",
+			"settings": {
+				"foreground": "#569CD6bb",
+			}
+		},
+		{
+			"name": "argument",
+			"scope": [
+				"meta.argument",
+				"string.unquoted.argument",
+			],
+			"settings": {
+				"foreground": "#8a86f3",
+			}
+		},
+		{
+			"name": "option dash -",
+			"scope": "constant.other.option.dash",
+			"settings": {
+				"foreground": "#b456d67f",
+			}
+		},
+		{
+			"name": "option",
+			"scope": "constant.other.option",
+			"settings": {
+				"foreground": "#b456d6",
+			}
+		},
+		{
+			"name": "wildcard",
+			"scope": "variable.language.special.wildcard",
+			"settings": {
+				"foreground": "#ff00dd",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "variable use $",
+			"scope": "punctuation.definition.variable.shell",
+			"settings": {
+				"foreground": "#EBFCFC90",
+			}
+		},
+		{
+			"name": "array use [ ]",
+			"scope": "punctuation.section.array.shell",
+			"settings": {
+				"foreground": "#b3e5ff",
+			}
+		},
+		{
+			"name": "parameter expansion",
+			"scope": "meta.parameter-expansion",
+			"settings": {
+				"foreground": "#f1b3ff",
+			}
+		},
+		{
+			"name": "control flow [[ ]]",
+			"scope": "punctuation.definition.logical-expression.shell",
+			"settings": {
+				"foreground": "#ddc683",
+			}
+		},
+		{
+			"name": "control flow do",
+			"scope": "keyword.control.do.shell",
+			"settings": {
+				"foreground": "#D9B0367f",
+			}
+		},
+		{
+			"name": "arithmetic evaluation $(( ))",
+			"scope": [
+				"punctuation.definition.evaluation.arithmetic.begin",
+				"punctuation.definition.evaluation.arithmetic.end",
+			],
+			"settings": {
+				"foreground": "#cd8163bb",
+			}
+		},
+		{
+			"name": "parens evaluation $( )",
+			"scope": [
+				"punctuation.definition.evaluation.parens.begin",
+				"punctuation.definition.evaluation.parens.end",
+			],
+			"settings": {
+				"foreground": "#b863cdbb",
+			}
+		},
+		{
+			"name": "variable in arithmetic evaluation",
+			"scope": "string.other.math.shell",
+			"settings": {
+				"foreground": "#dfffff",
+				"fontStyle": "italic",
 			}
 		},
 		//
