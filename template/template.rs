@@ -48,10 +48,10 @@ fn foo(s: impl Into<String>, b: &[u8]) -> Result<Bar, ()> {
     let mut v = vec![1, 2, 3];
     let mut x = 0u32;
     let y: u32 = 0;
-    let c = 'c';
-    let s = "string\n\x1b[1;35m";
+    let c: char = 'c';
+    let s: &str = "string\n\x1b[1;35m";
     let s = r#"raw string\n"#;
-    let s = format!("fstring {x} {}", y);
+    let s: String = format!("fstring {x} {}", y);
 
     let d = 10;
     let b = 0b10;
@@ -59,6 +59,7 @@ fn foo(s: impl Into<String>, b: &[u8]) -> Result<Bar, ()> {
     let h = 0x10;
     let b: bool = true;
     let b = false;
+    let b = !b;
 
     x = x + x;
     x = x - x;

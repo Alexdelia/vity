@@ -1,21 +1,43 @@
 {
-  "name": "vity",
-  "displayName": "vity",
-  "description": "theme focused on visibility",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.78.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "vity",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vity-color-theme.json"
-      }
-    ]
-  }
+	"name": "vity",
+	"displayName": "vity",
+	"description": "theme focused on visibility",
+	"version": "0.0.1",
+	"license": "SEE LICENSE IN LICENSE",
+	"author": "Alexandre Delille <adelille@student.42.fr> (https://github.com/Alexdelia)",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Alexdelia/vity"
+	},
+	"bugs": {
+		"url": "https://github.com/Alexdelia/vity/issues"
+	},
+	"engines": {
+		"vscode": "^1.78.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"vity",
+		"dark",
+		"theme",
+		"color-theme",
+		"visibility"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "vity",
+				"uiTheme": "vs-dark",
+				"path": "./themes/vity-color-theme.json"
+			},
+			{
+				"label": "vity high contrast",
+				"uiTheme": "hc-black",
+				"path": "./themes/vity-color-theme-high-contrast.json"
+			}
+		]
+	}
 }
