@@ -1,7 +1,10 @@
+*.vsix
+
 template/target/
 template/Cargo.lock
 
 .vscode
+*~
 
 # Logs
 logs
