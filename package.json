@@ -5,6 +5,7 @@
 	"version": "0.0.1",
 	"license": "SEE LICENSE IN LICENSE",
 	"author": "Alexandre Delille <adelille@student.42.fr> (https://github.com/Alexdelia)",
+	"publisher": "Alexdelia",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Alexdelia/vity"
