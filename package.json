@@ -35,9 +35,9 @@
 				"path": "./themes/vity-color-theme.json"
 			},
 			{
-				"label": "vity high contrast",
-				"uiTheme": "hc-black",
-				"path": "./themes/vity-color-theme-high-contrast.json"
+				"label": "vity darker",
+				"uiTheme": "vs-dark",
+				"path": "./themes/vity-darker-color-theme.json"
 			}
 		]
 	},
