@@ -20,9 +20,9 @@
 			<div style="display: flex; flex-direction: row; gap: 1rem; justify-content: space-evenly; align-items: center; width: 100%">
 				<!-- rust -->
 				<div class="lang-card">
-					<img alt="rust logo" src="https://simpleicons.org/icons/rust.svg" class="logo"/>
+					<image xlink:href="https://simpleicons.org/icons/rust.svg" class="logo"/>
 					<span>
-						<img alt="rust preview 0" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs0.png" class="preview"/>
+						<image xlink:href="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs0.png" class="preview"/>
 						<img alt="rust preview 1" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs1.png" class="preview"/>
 						<img alt="rust preview 2" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs2.png" class="preview"/>
 					</span>
