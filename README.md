@@ -32,7 +32,7 @@
 
 <!-- description -->
 <p align="center">
-	<img alt="vity description" src="https://raw.githubusercontent.com/Alexdelia/vity/main/description.png" width="100%">
+	<img alt="vity description" src="https://raw.githubusercontent.com/Alexdelia/vity/main/description.svg" width="100%">
 </p>
 
 <h2 align="center">
