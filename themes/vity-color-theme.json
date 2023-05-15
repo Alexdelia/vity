@@ -1663,6 +1663,21 @@
 				"fontStyle": ""
 			}
 		},
+		// shebang
+		{
+			"name": "shebang declaration",
+			"scope": "punctuation.definition.comment.shebang",
+			"settings": {
+				"foreground": "#F0F6FC7f",
+			},
+		},
+		{
+			"name": "shebang",
+			"scope": "meta.shebang",
+			"settings": {
+				"foreground": "#d3b6d7ee",
+			},
+		},
 		// regex
 		{
 			"scope": [
