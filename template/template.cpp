@@ -4,9 +4,24 @@
 #include "utils.hpp"
 #include <iostream>
 
+using namespace module;
+
+class Foo
+{
+public:
+	Foo(void);
+	Foo(const Foo &src);
+	~Foo(void);
+
+	Foo		&operator=(const Foo &rhs);
+
+private:
+	int		_x;
+};
+
 int	foo(int ac, char **av, const std::string &tmp)
 {
-	static	long			sl;
+	static long				sl;
 	std::string				s = "Hello Wordl!\n";
 	std::string::iterator	y = s.begin();
 	int						x = 1234567890;
@@ -45,6 +60,8 @@ int	foo(int ac, char **av, const std::string &tmp)
 	/*
 	multi line comment
 	*/
+
+	return (0);
 }
 
 #endif

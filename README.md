@@ -2,7 +2,7 @@
 
 <!-- logo -->
 <p align="center">
-	<img alt="vity logo" src="https://raw.githubusercontent.com/Alexdelia/vity/main/icon.png" width="200">
+	<img alt="vity logo" src="https://raw.githubusercontent.com/Alexdelia/vity/main/icon.png" width="42%">
 </p>
 
 <!-- badges -->
@@ -32,5 +32,10 @@
 
 <!-- description -->
 <h2 align="center">
-	color theme focused on visibility/readability
+	<span style="color: #007ACC">vscode</span>
+	<b style="color: #E34A87">color theme</b>
+	<small>focused on</small>
+	<i style="color: #4BB543">visibility</i>
+	<small>and</small>
+	<i style="color: #4BB543">readability</i>
 </h2>

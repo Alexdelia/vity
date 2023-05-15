@@ -1047,7 +1047,7 @@
 			}
 		},
 		{
-			"name": "type class",
+			"name": "type",
 			"scope": "entity.name.type",
 			"settings": {
 				"foreground": "#4BE37E",
@@ -1064,9 +1064,24 @@
 		},
 		{
 			"name": "type primitive",
-			"scope": "entity.name.type.primitive",
+			"scope": [
+				"entity.name.type.primitive",
+				"storage.type.built-in.primitive",
+				"storage.type.primitive"
+			],
 			"settings": {
 				"foreground": "#28e188",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "type primitive cpp",
+			"scope": [
+				"storage.type.built-in.primitive.cpp",
+				"storage.type.primitive.cpp"
+			],
+			"settings": {
+				"foreground": "#569CD6",
 				"fontStyle": ""
 			}
 		},
@@ -1615,6 +1630,36 @@
 			"scope": "entity.name.namespace",
 			"settings": {
 				"foreground": "#C9C94EAA",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "entity.name.scope-resolution.cpp",
+			"settings": {
+				"foreground": "#C9C94EA0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "class keyword",
+			"scope": "storage.type.class",
+			"settings": {
+				"foreground": "#4b85b5", // to change
+			}
+		},
+		{
+			"name": "public keyword",
+			"scope": "storage.type.modifier.access.control.public",
+			"settings": {
+				"foreground": "#C9C94E",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "private keyword",
+			"scope": "storage.type.modifier.access.control.private",
+			"settings": {
+				"foreground": "#a9932f",
 				"fontStyle": ""
 			}
 		},
