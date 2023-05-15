@@ -1,4 +1,4 @@
-https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png# vity
+# vity
 
 <!-- logo -->
 <p align="center">
