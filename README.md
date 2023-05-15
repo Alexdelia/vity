@@ -42,7 +42,7 @@
 
 <!-- preview -->
 <p align="center">
-	<img alt="preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/preview.png" width="100%">
+	<img alt="preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/preview.svg" width="100%">
 </p>
 <p align="center">
 	<style>
