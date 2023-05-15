@@ -1,4 +1,4 @@
-# vity
+https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png# vity
 
 <!-- logo -->
 <p align="center">
@@ -62,7 +62,7 @@
 	<div style="display: flex; flex-direction: row; gap: 1rem; justify-content: space-evenly; align-items: center; width: 100%">
 		<!-- rust -->
 		<div class="lang-card">
-			<img alt="rust logo" src="https://simpleicons.org/icons/rust.svg" class="logo"/>
+			<img alt="rust logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" class="logo"/>
 			<span>
 				<img alt="rust preview 0" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs0.png" class="preview"/>
 				<img alt="rust preview 1" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs1.png" class="preview"/>
@@ -71,12 +71,12 @@
 		</div>
 		<!-- c++ -->
 		<div class="lang-card">
-			<img alt="c++ logo" src="https://simpleicons.org/icons/cplusplus.svg" class="logo"/>
+			<img alt="c++ logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" class="logo"/>
 			<img alt="c++ preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/cpp.png" class="preview"/>
 		</div>
 		<!-- shell -->
 		<div class="lang-card">
-			<img alt="shell logo" src="https://simpleicons.org/icons/gnubash.svg" class="logo"/>
+			<img alt="shell logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/2048px-Bash_Logo_Colored.svg.png" class="logo"/>
 			<img alt="shell preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/sh.png" class="preview"/>
 		</div>
 	</div>
