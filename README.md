@@ -42,6 +42,9 @@
 
 <!-- preview -->
 <p align="center">
+	<img alt="preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/preview.png" width="100%">
+</p>
+<p align="center">
 	<style>
 		.lang-card {
 			background-color: #7f7f7f;
