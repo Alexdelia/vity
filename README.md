@@ -41,25 +41,24 @@
 </h2>
 
 <!-- preview -->
-<style>
-	.lang-card {
-		background-color: #7f7f7f;
-		padding: 1rem;
-		border-radius: 1rem;
-	}
-	.logo {
-		width: 15%;
-		display: block;
-		margin: 0 auto 0.3rem auto;
-		border-radius: unset;
-	}
-	.preview {
-		/* width: 100%; */
-		border-radius: 0.5rem;
-	}
-</style>
-
 <p align="center">
+	<style>
+		.lang-card {
+			background-color: #7f7f7f;
+			padding: 1rem;
+			border-radius: 1rem;
+		}
+		.logo {
+			width: 15%;
+			display: block;
+			margin: 0 auto 0.3rem auto;
+			border-radius: unset;
+		}
+		.preview {
+			/* width: 100%; */
+			border-radius: 0.5rem;
+		}
+	</style>
 	<div style="display: flex; flex-direction: row; gap: 1rem; justify-content: space-evenly; align-items: center; width: 100%">
 		<!-- rust -->
 		<div class="lang-card">
