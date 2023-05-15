@@ -40,9 +40,19 @@
 	<i style="color: #4BB543">readability</i>
 </h2>
 
-<br/>
+<br>
+<br>
+
+<!-- install -->
+## Install
+`Ctrl+P` or `Cmd+P` in vscode and paste:
+```
+ext install Alexdelia.vity
+```
 
 <!-- preview -->
+## preview
+
 <p align="center">
 	<table>
 		<tr>
