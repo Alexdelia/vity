@@ -31,10 +31,6 @@
 -->
 
 <!-- description -->
-<p align="center">
-	<img alt="vity description" src="https://raw.githubusercontent.com/Alexdelia/vity/main/description.svg" width="100%">
-</p>
-
 <h2 align="center">
 	<span style="color: #007ACC">vscode</span>
 	<b style="color: #E34A87">color theme</b>
@@ -45,27 +41,25 @@
 </h2>
 
 <!-- preview -->
+<style>
+	.lang-card {
+		width: 100%;
+		background-color: #7f7f7f;
+		padding: 1rem;
+		border-radius: 1rem;
+	}
+	.logo {
+		width: 15%;
+		display: block;
+		margin: 0 auto 0.3rem auto;
+		border-radius: unset;
+	}
+	.preview {
+		border-radius: 0.5rem;
+	}
+</style>
+
 <p align="center">
-	<img alt="preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/preview.svg" width="100%">
-</p>
-<p align="center">
-	<style>
-		.lang-card {
-			background-color: #7f7f7f;
-			padding: 1rem;
-			border-radius: 1rem;
-		}
-		.logo {
-			width: 15%;
-			display: block;
-			margin: 0 auto 0.3rem auto;
-			border-radius: unset;
-		}
-		.preview {
-			/* width: 100%; */
-			border-radius: 0.5rem;
-		}
-	</style>
 	<div style="display: flex; flex-direction: row; gap: 1rem; justify-content: space-evenly; align-items: center; width: 100%">
 		<!-- rust -->
 		<div class="lang-card">
