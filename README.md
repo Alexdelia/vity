@@ -31,6 +31,10 @@
 -->
 
 <!-- description -->
+<p align="center">
+	<img alt="vity description" src="https://raw.githubusercontent.com/Alexdelia/vity/main/description.png" width="100%">
+</p>
+
 <h2 align="center">
 	<span style="color: #007ACC">vscode</span>
 	<b style="color: #E34A87">color theme</b>
@@ -42,14 +46,34 @@
 
 <!-- preview -->
 <p align="center">
+	<img alt="preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/preview.svg" width="100%">
+</p>
+<p align="center">
+	<style>
+		.lang-card {
+			background-color: #7f7f7f;
+			padding: 1rem;
+			border-radius: 1rem;
+		}
+		.logo {
+			width: 15%;
+			display: block;
+			margin: 0 auto 0.3rem auto;
+			border-radius: unset;
+		}
+		.preview {
+			/* width: 100%; */
+			border-radius: 0.5rem;
+		}
+	</style>
 	<div style="display: flex; flex-direction: row; gap: 1rem; justify-content: space-evenly; align-items: center; width: 100%">
 		<!-- rust -->
-		<div style="background-color: #7f7f7f; padding: 0 1rem 1rem 1rem; border-radius: 1rem;">
-			<img alt="rust logo" src="https://simpleicons.org/icons/rust.svg" width="15%" style="display: block; margin: 0.3rem auto"/>
+		<div class="lang-card">
+			<img alt="rust logo" src="https://simpleicons.org/icons/rust.svg" class="logo"/>
 			<span>
-				<img alt="rust preview 0" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs0.png" style="border-radius: 0.5rem"/>
-				<img alt="rust preview 1" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs1.png" style="border-radius: 0.5rem"/>
-				<img alt="rust preview 2" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs2.png" style="border-radius: 0.5rem"/>
+				<img alt="rust preview 0" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs0.png" class="preview"/>
+				<img alt="rust preview 1" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs1.png" class="preview"/>
+				<img alt="rust preview 2" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs2.png" class="preview"/>
 			</span>
 		</div>
 		<!-- c++ -->
