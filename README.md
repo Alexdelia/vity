@@ -40,43 +40,34 @@
 	<i style="color: #4BB543">readability</i>
 </h2>
 
+<br/>
+
 <!-- preview -->
 <p align="center">
-	<style>
-		.lang-card {
-			width: 100%;
-			background-color: #7f7f7f;
-			padding: 1rem;
-			border-radius: 1rem;
-		}
-		.logo {
-			display: block;
-			margin: 0 auto 0.3rem auto;
-			border-radius: unset;
-		}
-		.preview {
-			border-radius: 0.5rem;
-		}
-	</style>
-	<div style="display: flex; flex-direction: row; gap: 1rem; justify-content: space-evenly; align-items: center; width: 100%">
-		<!-- rust -->
-		<div class="lang-card">
-			<img alt="rust logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" width="15%" class="logo"/>
-			<span>
-				<img alt="rust preview 0" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs0.png" class="preview"/>
-				<img alt="rust preview 1" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs1.png" class="preview"/>
-				<img alt="rust preview 2" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs2.png" class="preview"/>
-			</span>
-		</div>
-		<!-- c++ -->
-		<div class="lang-card">
-			<img alt="c++ logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" width="15%" class="logo"/>
-			<img alt="c++ preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/cpp.png" class="preview"/>
-		</div>
-		<!-- shell -->
-		<div class="lang-card">
-			<img alt="shell logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/2048px-Bash_Logo_Colored.svg.png" width="15%" class="logo"/>
-			<img alt="shell preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/sh.png" class="preview"/>
-		</div>
-	</div>
+	<table>
+		<tr>
+			<th>
+				<img alt="rust logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" width="100%"/>
+			</th>
+			<th>
+				<img alt="c++ logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" width="100%"/>
+			</th>
+			<th>
+				<img alt="shell logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/2048px-Bash_Logo_Colored.svg.png" width="100%"/>
+			</th>
+		</tr>
+		<tr>
+			<td width="33%">
+				<img alt="rust preview 0" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs0.png" width="100%"/>
+				<img alt="rust preview 1" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs1.png" width="100%"/>
+				<img alt="rust preview 2" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs2.png" width="100%"/>
+			</td>
+			<td width="33%">
+				<img alt="c++ preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/cpp.png" width="100%"/>
+			</td>
+			<td width="33%">
+				<img alt="shell preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/sh.png" width="100%"/>
+			</td>
+		</tr>
+	</table>
 </p>
