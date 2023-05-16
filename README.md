@@ -54,67 +54,13 @@ ext install Alexdelia.vity
 
 <p align="center">
 	<table>
-		<tr>
-			<th>
-				<img alt="rust logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" width="100%"/>
-			</th>
-			<th>
-				<img alt="c++ logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" width="100%"/>
-			</th>
-			<th>
-				<img alt="shell logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/2048px-Bash_Logo_Colored.svg.png" width="100%"/>
-			</th>
-		</tr>
-		<tr>
-			<td width="33%">
-				<img alt="rust preview 0" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs0.png" width="100%"/>
-				<img alt="rust preview 1" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs1.png" width="100%"/>
-				<img alt="rust preview 2" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs2.png" width="100%"/>
-			</td>
-			<td width="33%">
-				<img alt="c++ preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/cpp.png" width="100%"/>
-			</td>
-			<td width="33%">
-				<img alt="shell preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/sh.png" width="100%"/>
-			</td>
-		</tr>
-	</table>
-	<ul>
-		<!-- rust -->
-		<li style="float: left">
-			<details><summary>
-				<img alt="rust logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" width="20%"/>
-			</summary>
-			<img alt="rust preview 0" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs0.png" width="100%"/>
-			<img alt="rust preview 1" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs1.png" width="100%"/>
-			<img alt="rust preview 2" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs2.png" width="100%"/>
-			</details>
-		</li>
-		<!-- c++ -->
-		<li style="float: left">
-			<details><summary>
-				<img alt="c++ logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" width="20%"/>
-			</summary>
-			<img alt="c++ preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/cpp.png" width="100%"/>
-			</details>
-		</li>
-		<!-- shell -->
-		<li style="float: left">
-			<details style="display: block"><summary>
-				<img alt="shell logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/2048px-Bash_Logo_Colored.svg.png" width="20%"/>
-			</summary>
-			<img alt="shell preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/sh.png" width="100%"/>
-			</details>
-		</li>
-	</ul>
-	<table>
 		<!-- rust -->
 		<tr>
 			<th width="20%">
 				<img alt="rust logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" width="100%"/>
 			</th>
 			<td width="100%">
-				<details><summary><h>👀</h></summary>
+				<details><summary><h1>👀</h1></summary>
 					<img alt="rust preview 0" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs0.png" width="100%"/>
 					<img alt="rust preview 1" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs1.png" width="100%"/>
 					<img alt="rust preview 2" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs2.png" width="100%"/>
@@ -138,7 +84,7 @@ ext install Alexdelia.vity
 				<img alt="shell logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/2048px-Bash_Logo_Colored.svg.png" width="100%"/>
 			</th>
 			<td width="100%">
-				<details><summary><h2>👀</h2></summary>
+				<details><summary><h1>👀</h1></summary>
 					<img alt="shell preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/sh.png" width="100%"/>
 				</details>
 			</td>
