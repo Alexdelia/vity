@@ -57,7 +57,10 @@ ext install Alexdelia.vity
 		<!-- rust -->
 		<tr>
 			<th width="20%">
-				<img alt="rust logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" width="100%"/>
+				<picture>
+					<source srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png" media="(prefers-color-scheme: dark)">
+					<img alt="rust logo dark" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" width="100%"/>
+				</picture>
 			</th>
 			<td width="100%">
 				<details><summary><h1>👀</h1></summary>
