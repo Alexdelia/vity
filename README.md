@@ -114,7 +114,7 @@ ext install Alexdelia.vity
 				<img alt="rust logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" width="100%"/>
 			</th>
 			<td width="100%">
-				<details><summary><font size="+2">👀</font></summary>
+				<details><summary><h>👀</h></summary>
 					<img alt="rust preview 0" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs0.png" width="100%"/>
 					<img alt="rust preview 1" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs1.png" width="100%"/>
 					<img alt="rust preview 2" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/rs2.png" width="100%"/>
@@ -127,7 +127,7 @@ ext install Alexdelia.vity
 				<img alt="c++ logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" width="100%"/>
 			</th>
 			<td width="100%">
-				<details><summary>👀</summary>
+				<details><summary><h1>👀</h1></summary>
 					<img alt="c++ preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/cpp.png" width="100%"/>
 				</details>
 			</td>
@@ -138,7 +138,7 @@ ext install Alexdelia.vity
 				<img alt="shell logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/2048px-Bash_Logo_Colored.svg.png" width="100%"/>
 			</th>
 			<td width="100%">
-				<details><summary>👀</summary>
+				<details><summary><h2>👀</h2></summary>
 					<img alt="shell preview" src="https://raw.githubusercontent.com/Alexdelia/vity/main/preview/sh.png" width="100%"/>
 				</details>
 			</td>
