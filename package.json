@@ -33,11 +33,6 @@
 				"label": "vity",
 				"uiTheme": "vs-dark",
 				"path": "./themes/vity-color-theme.json"
-			},
-			{
-				"label": "vity darker",
-				"uiTheme": "vs-dark",
-				"path": "./themes/vity-darker-color-theme.json"
 			}
 		]
 	},
