@@ -806,7 +806,8 @@
 			"name": "constant",
 			"scope": [
 				"constant.language",
-				"constant.other.caps"
+				"constant.other.caps",
+				"variable.other.constant"
 			],
 			"settings": {
 				"foreground": "#4265e3"
