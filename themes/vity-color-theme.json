@@ -1068,7 +1068,9 @@
 			"scope": [
 				"entity.name.type.primitive",
 				"storage.type.built-in.primitive",
-				"storage.type.primitive"
+				"storage.type.primitive",
+				"support.type.primitive",
+				"support.type.builtin"
 			],
 			"settings": {
 				"foreground": "#28e188",
