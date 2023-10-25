@@ -32,9 +32,5 @@ alias i := install
 		(*) printf >&2 "\033[1;35mVERSION\033[0m must be '\033[1;32mmajor\033[0m', '\033[1;32mminor\033[0m' or '\033[1;32mpatch\033[0m' not '\033[1;31m{{VERSION}}\033[0m'\n"; exit 1 ;; \
 	esac
 
-	__start="$(date -u +%s.%N)"; \
 	./node_modules/.bin/vsce publish "{{VERSION}}"; \
-	__end="$(date -u +%s.%N)"; \
-	__elapsed=`bc <<< "( $__end - $__start )"`; \
-	printf "\033[1;35mpublish\033[0m done in \033[1;32m%.2f\033[0m\033[32ms\033[0m\n" "0$__elapsed"
 alias p := publish
