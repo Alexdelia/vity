@@ -814,6 +814,13 @@
 			}
 		},
 		{
+			"name": "constant TypeScript",
+			"scope": "variable.other.constant.ts",
+			"settings": {
+				"foreground": "#aedbff",
+			}
+		},
+		{
 			"scope": [
 				"constant.numeric",
 				"variable.other.enummember",
@@ -1049,7 +1056,10 @@
 		},
 		{
 			"name": "type",
-			"scope": "entity.name.type",
+			"scope": [
+				"entity.name.type",
+				"support.class"
+			],
 			"settings": {
 				"foreground": "#4BE37E",
 				"fontStyle": ""
@@ -1286,9 +1296,10 @@
 			}
 		},
 		{
-			"name": "include",
+			"name": "include / import",
 			"scope": [
-				"keyword.control.directive.include"
+				"keyword.control.directive.include",
+				"keyword.other.import",
 			],
 			"settings": {
 				"foreground": "#9A5FEB"
@@ -1454,6 +1465,14 @@
 				"fontStyle": ""
 			}
 		},
+		{
+			"name": "alteration",
+			"scope": "keyword.operator.increment-decrement",
+			"settings": {
+				"foreground": "#FF9999",
+				"fontStyle": ""
+			}
+		},
 		// access operator
 		{
 			"name": "pointer",
@@ -1498,7 +1517,8 @@
 			"name": "operator -> . access",
 			"scope": [
 				"punctuation.separator.pointer-access",
-				"punctuation.separator.dot-access"
+				"punctuation.separator.dot-access",
+				"punctuation.dot.dart"
 			],
 			"settings": {
 				"foreground": "#D9C2FE",
@@ -1507,7 +1527,10 @@
 		},
 		// map operator
 		{
-			"scope": "keyword.operator.key-value",
+			"scope": [
+				"keyword.operator.key-value",
+				"keyword.operator.ternary.dart"
+			],
 			"settings": {
 				"foreground": "#d3ffdaec"
 			}
@@ -1645,7 +1668,10 @@
 		},
 		{
 			"name": "class keyword",
-			"scope": "storage.type.class",
+			"scope": [
+				"storage.type.class",
+				"string.interpolated",
+			],
 			"settings": {
 				"foreground": "#4b85b5", // to change
 			}
@@ -1861,6 +1887,18 @@
 			"settings": {
 				"foreground": "#dfffff",
 				"fontStyle": "italic",
+			}
+		},
+		// flutter/dart
+		{
+			"name": "comma / semi colon , / ;",
+			"scope": [
+				"punctuation.comma.dart",
+				"punctuation.terminator.dart",
+			],
+			"settings": {
+				"foreground": "#767152c6",
+				"fontStyle": ""
 			}
 		},
 		//
