@@ -1,3 +1,4 @@
+set dotenv-load
 set shell := ["bash", "-uc"]
 
 # list all available recipes
@@ -32,5 +33,7 @@ alias i := install
 		(*) printf >&2 "\033[1;35mVERSION\033[0m must be '\033[1;32mmajor\033[0m', '\033[1;32mminor\033[0m' or '\033[1;32mpatch\033[0m' not '\033[1;31m{{VERSION}}\033[0m'\n"; exit 1 ;; \
 	esac
 
-	./node_modules/.bin/vsce publish "{{VERSION}}"; \
+	./node_modules/.bin/vsce verify-pat --pat "$VSCE_PAT" || exit 1
+
+	./node_modules/.bin/vsce publish "{{VERSION}}" --pat "$VSCE_PAT"
 alias p := publish
