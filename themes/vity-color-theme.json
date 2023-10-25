@@ -1670,7 +1670,7 @@
 			"name": "class keyword",
 			"scope": [
 				"storage.type.class",
-				"string.interpolated",
+				"keyword.declaration",
 			],
 			"settings": {
 				"foreground": "#4b85b5", // to change
