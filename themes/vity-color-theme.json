@@ -1058,7 +1058,10 @@
 			"name": "type",
 			"scope": [
 				"entity.name.type",
-				"support.class"
+				"support.class",
+				"support.type.python",
+				"meta.indexed-name.python",
+				"meta.item-access.arguments.python",
 			],
 			"settings": {
 				"foreground": "#4BE37E",
@@ -1300,6 +1303,7 @@
 			"scope": [
 				"keyword.control.directive.include",
 				"keyword.other.import",
+				"keyword.control.import",
 			],
 			"settings": {
 				"foreground": "#9A5FEB"
@@ -1360,6 +1364,17 @@
 				"fontStyle": ""
 			}
 		},
+		{
+			"name": "async",
+			"scope": [
+				"storage.type.function.async",
+				"storage.modifier.async"
+			],
+			"settings": {
+				"foreground": "#D9B036",
+				"fontStyle": "italic"
+			}
+		},
 		// keyword control flow loop
 		{
 			"name": "keyword loop",
@@ -1401,6 +1416,16 @@
 		{
 			"name": "punctuation < >",
 			"scope": "punctuation.brackets.angle",
+			"settings": {
+				"foreground": "#ffffff90"
+			}
+		},
+		{
+			"name": "punctuation :",
+			"scope": [
+				"punctuation.separator.colon",
+				"punctuation.section.class.begin.python",
+			],
 			"settings": {
 				"foreground": "#ffffff90"
 			}
@@ -1529,7 +1554,9 @@
 		{
 			"scope": [
 				"keyword.operator.key-value",
-				"keyword.operator.ternary.dart"
+				"keyword.operator.ternary.dart",
+				"punctuation.separator.dict",
+				"punctuation.separator.annotation.python"
 			],
 			"settings": {
 				"foreground": "#d3ffdaec"
@@ -1553,10 +1580,39 @@
 			}
 		},
 		{
+			"name": "function magic",
+			"scope": "support.function.magic",
+			"settings": {
+				"foreground": "#E34AA8",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"scope": "entity.name.function.operator",
 			"settings": {
 				"foreground": "#E9257D",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "function keyword (`def`, `fn`, ...)",
+			"scope": [
+				"keyword.other.fn",
+				"storage.type.function",
+			],
+			"settings": {
+				"foreground": "#569CD67f",
+			}
+		},
+		{
+			"name": "function return separator",
+			"scope": [
+				"punctuation.separator.annotation.result",
+				"keyword.operator.arrow.skinny",
+				"punctuation.section.function.begin.python"
+			],
+			"settings": {
+				"foreground": "#FFFFFF90",
 			}
 		},
 		// macro
@@ -1626,9 +1682,12 @@
 		},
 		{
 			"name": "documentation",
-			"scope": "comment.line.documentation",
+			"scope": [
+				"comment.line.documentation",
+				"string.quoted.docstring",
+			],
 			"settings": {
-				"foreground": "#d6e7f9e2",
+				"foreground": "#d6e7f9cc",
 				"fontStyle": "italic"
 			}
 		},
@@ -1771,13 +1830,6 @@
 			"scope": "support.function.builtin",
 			"settings": {
 				"foreground": "#e34adbe0",
-			}
-		},
-		{
-			"name": "function",
-			"scope": "storage.type.function.shell",
-			"settings": {
-				"foreground": "#569CD67f",
 			}
 		},
 		{
