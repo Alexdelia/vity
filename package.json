@@ -8,10 +8,10 @@
 	"publisher": "Alexdelia",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Alexdelia/vity"
+		"url": "https://github.com/Alexdelia/vity-vscode"
 	},
 	"bugs": {
-		"url": "https://github.com/Alexdelia/vity/issues"
+		"url": "https://github.com/Alexdelia/vity-vscode/issues"
 	},
 	"engines": {
 		"vscode": "^1.78.0"
